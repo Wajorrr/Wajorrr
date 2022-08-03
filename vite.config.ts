@@ -6,7 +6,9 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(),
+  //插件
+  plugins: [
+    vue(),
     AutoImport({
       resolvers: [ElementPlusResolver()],
     }),
@@ -14,7 +16,12 @@ export default defineConfig({
       resolvers: [ElementPlusResolver()],
     }),
   ],
+  //部署端口
   server: {
     port: 3000,
   },
+   //在生产中服务时的基本公共路径。
+   //@default '/'
+  base:'./',
+
 })

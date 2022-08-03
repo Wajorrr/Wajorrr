@@ -39,9 +39,6 @@ const getData2 = (list: number[], flag: boolean) => {
 const header = ref(null)
 console.log(header)
 
-
-
-
 </script>
 
 <style lang="scss" scoped>
