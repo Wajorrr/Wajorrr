@@ -1,22 +1,22 @@
-import { createRouter,createWebHistory,RouteRecordRaw } from "vue-router";
+import { createRouter, createWebHashHistory, RouteRecordRaw } from "vue-router";
 
-const routes:Array<RouteRecordRaw>=[
+const routes: Array<RouteRecordRaw> = [
     {
-        path:"/",
-        component:()=>import('../views/test/index.vue')
+        path: "/",
+        component: () => import('../views/test/index.vue')
     },
     {
-        path:"/index",
-        component:()=>import('../views/test/index.vue')
+        path: "/index",
+        component: () => import('../views/test/index.vue')
     },
     {
-        path:"/resume",
-        component:()=>import('../components/test/简历.vue')
+        path: "/resume",
+        component: () => import('../components/test/Resume.vue')
     },
 ]
 
-const router=createRouter({
-    history:createWebHistory(),
+const router = createRouter({
+    history: createWebHashHistory(),
     routes
 })
 
