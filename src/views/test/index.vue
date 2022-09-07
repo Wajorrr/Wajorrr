@@ -1,6 +1,5 @@
 <template>
     <div style="display:flex;flex-direction: column;">
-        push test
         <Header ref="header" @submit-data2="getData2" @submit-data="getData" :data="list" title="这是头部(父组件传递)"></Header>
         <div class="container">
             <div class="container-left">

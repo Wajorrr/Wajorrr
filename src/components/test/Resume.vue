@@ -87,22 +87,22 @@
                         <h4>2021美国大学生数学建模竞赛 H奖</h4>
                     </li>
                     <li>
+                        <h4>第十一届中国软件杯大赛 国家二等奖</h4>
+                    </li>
+                    <li>
                         <h4>2021中国高校计算机大赛——团体程序设计天梯赛 个人国家二等奖</h4>
                     </li>
                     <li>
-                        <h4>2021中国高校计算机大赛——团体程序设计天梯赛 团队国家三等奖</h4>
+                        <h4>2022RoboCom机器人开发者大赛——CAIP编程设计赛 国家二等奖</h4>
                     </li>
                     <li>
                         <h4>2021RoboCup机器人世界杯中国赛——足球机器人小型组 国家三等奖</h4>
                     </li>
                     <li>
-                        <h4>2021RoboCom机器人开发者大赛全国赛——人工智能编程设计赛 国家三等奖</h4>
+                        <h4>2021RoboCom机器人开发者大赛——人工智能编程设计赛 国家三等奖</h4>
                     </li>
                     <li>
-                        <h4>2021RoboCom机器人开发者大赛全国赛——iLoboke足球对抗赛 国家三等奖</h4>
-                    </li>
-                    <li>
-                        <h4>第十一届中国软件杯大赛 国家三等奖</h4>
+                        <h4>2021RoboCom机器人开发者大赛——iLoboke足球对抗赛 国家三等奖</h4>
                     </li>
                 </ul>
                 <h3>省级</h3>
@@ -123,17 +123,20 @@
                     <li>
                         <h4>基于rocos的多级足球机器人系统的开发 大学生创新创业项目 国家级 核心成员</h4>
                         <el-descriptions :column="1" style="width:85%">
-                            <el-descriptions-item label="-">在Linux系统上使用QT
+                            <el-descriptions-item label="-">
+                                在Linux系统上使用QT
                                 C++和Lua语言对足球机器人系统进行开发，分层实现视觉信息的收集与建模、对机器人的控制、战术设计以及实现等。主要负责使用C++实现对机器人的控制，并用Lua来实现足球机器人的战术布置。
                             </el-descriptions-item>
-                            <el-descriptions-item label="-">通过此项目学习了Linux系统的使用，了解了Lua语言的函数式编程思想，同时也锻炼了查阅文档和工程实践的能力。
+                            <el-descriptions-item label="-">
+                                通过此项目学习了Linux系统的使用，了解了Lua语言的函数式编程思想，同时也锻炼了查阅文档和工程实践的能力。
                             </el-descriptions-item>
                         </el-descriptions>
                     </li>
                     <li>
                         <h4>高性能分析型连接查询设计与实现 软件杯竞赛项目</h4>
                         <el-descriptions :column="1" style="width:85%">
-                            <el-descriptions-item label="-">基于TPC-H基准中的Q17业务逻辑简化而来，探索实现分布式数据库中的高性能分析型连接查询算法。
+                            <el-descriptions-item label="-">
+                                基于TPC-H基准中的Q17业务逻辑，探索实现分布式数据库中的高性能分析型连接查询算法。
                             </el-descriptions-item>
                             <el-descriptions-item label="-">
                                 通过多进程来模拟分布式数据库，使用了asio库来进行进程间的socket通信，每个进程实例通过多线程来实现相互之间通信、本地计算的并行执行。

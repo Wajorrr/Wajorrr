@@ -1,5 +1,5 @@
 <template>
-    <md-editor v-model="text" previewOnly />
+    <md-editor v-model="text" />
 </template>
 
 <script setup lang="ts">
