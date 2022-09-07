@@ -1,1 +1,0 @@
-import{E as t}from"./style.d05963e0.js";import{d as l,r as a,o as n,c as s,u}from"./index.4bae74e5.js";const i=l({setup(p){const e=a("Hello Editor!");return(d,o)=>(n(),s(u(t),{modelValue:e.value,"onUpdate:modelValue":o[0]||(o[0]=r=>e.value=r),previewOnly:""},null,8,["modelValue"]))}});export{i as default};
