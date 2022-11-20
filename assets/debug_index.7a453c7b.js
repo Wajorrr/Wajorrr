@@ -1,0 +1,1 @@
+import{c as s}from"./content_view.f2520533.js";import{d as t,w as e,m as i,a,o as l}from"./index.13af2439.js";import"./store_name.08c3aeaa.js";const o=t({props:{fileList:null},setup(t){const o=t;return e((()=>o.fileList),(()=>{})),(e,o)=>(l(),i("div",null,[a(s,{fileList:t.fileList,pathPrefix:"/debug"},null,8,["fileList"])]))}});export{o as default};

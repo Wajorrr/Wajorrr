@@ -1,0 +1,1 @@
+import{a as s}from"./archive_view.3a81849d.js";import{d as i,w as a,m as t,a as e,o as l}from"./index.13af2439.js";const f=i({props:{fileList:null},setup(i){const f=i;return a((()=>f.fileList),(()=>{})),(a,f)=>(l(),t("div",null,[e(s,{fileList:i.fileList,pathPrefix:"/blog"},null,8,["fileList"])]))}});export{f as default};
