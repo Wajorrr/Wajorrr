@@ -1,1 +1,0 @@
-import{a as i}from"./archive_view.3a81849d.js";import{d as s,w as a,m as t,a as e,o as l}from"./index.13af2439.js";const r=s({props:{fileList:null},setup(s){const r=s;return a((()=>r.fileList),(()=>{})),(a,r)=>(l(),t("div",null,[e(i,{fileList:s.fileList,pathPrefix:"/diary"},null,8,["fileList"])]))}});export{r as default};

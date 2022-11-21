@@ -1,1 +1,0 @@
-import{c as s}from"./content_view.f2520533.js";import{d as i,w as t,m as a,a as e,o as l}from"./index.13af2439.js";import"./store_name.08c3aeaa.js";const o=i({props:{fileList:null},setup(i){const o=i;return t((()=>o.fileList),(()=>{})),(t,o)=>(l(),a("div",null,[e(s,{fileList:i.fileList,pathPrefix:"/diary"},null,8,["fileList"])]))}});export{o as default};
