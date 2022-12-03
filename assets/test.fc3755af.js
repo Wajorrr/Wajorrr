@@ -1,1 +1,0 @@
-import{d as s,m as a,q as l,o}from"./index.1a6f07d7.js";const t=["src"],e=s({setup:s=>(s,e)=>(o(),a("div",null,[l("img",{src:"http://localhost:9999/pic/D:&OneDrive&CS&Blogs&博客园&images&1627646764249.png"},null,8,t)]))});export{e as default};

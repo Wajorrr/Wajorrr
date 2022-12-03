@@ -1,1 +1,0 @@
-import{c as e}from"./content_view.d43374e4.js";import{d as t,w as s,m as i,a,o}from"./index.1a6f07d7.js";import"./contentStore.1df60e2e.js";import"./store_name.08c3aeaa.js";const r=t({props:{fileList:null},setup(t){const r=t;return s((()=>r.fileList),(()=>{})),(s,r)=>(o(),i("div",null,[a(e,{fileList:t.fileList,pathPrefix:"/debug"},null,8,["fileList"])]))}});export{r as default};

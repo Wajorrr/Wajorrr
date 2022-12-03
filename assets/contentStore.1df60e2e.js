@@ -1,1 +1,0 @@
-import{B as t}from"./index.1a6f07d7.js";import{N as n}from"./store_name.08c3aeaa.js";const e="https://www.wajorrr.com/api/",s=t(n.Content,{state:()=>({contents:[],contentIdx:0}),getters:{getContents(){return this.contents},getContentIdx(){return this.contentIdx}},actions:{setContents(t){this.contents=t},setContentIdx(t){this.contentIdx=t}}});export{e as s,s as u};
